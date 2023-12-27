@@ -1,0 +1,120 @@
+/* importing Google fonts */
+@import url('https://fonts.googleapis.com/css?family=Fenix&family=Poppins:wght@100; 200; 300; 400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Triangles&display=swap');
+
+:root {
+    --main-color: #c7a17a;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Fenix', serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #000;
+    height: 3000px;
+}
+
+/* header Section Design */
+.logo a {
+    color: #fff;
+    text-decoration: none;
+    cursor: not-allowed;
+    font-family: 'Rubik Doodle Triangles';
+    font-size: 1.8rem;
+
+}
+
+.info {
+    background: #000;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    font-size: 14px;
+    border-bottom: 1px solid #333;
+}
+
+.info .info-left {
+    display: flex;
+}
+
+.info-left section:first-child {
+    margin-right: 20px;
+}
+
+.info-right {
+    display: flex;
+    align-items: center;
+}
+
+.info-right .social {
+    margin-right: 20px;
+}
+
+.info-right .social a {
+    margin: 0px 5px;
+    color: #FFF;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .4s ease-in-out;
+}
+
+.info-right .social a:hover {
+    color: var(--main-color);
+}
+
+.info-right .info-link a {
+    display: inline-block;
+    color: #FFF;
+    text-transform: capitalize;
+    background: var(--main-color);
+    border: 1px solid var(--main-color);
+    transition: .4s ease-in-out;
+    padding: 7px 12px;
+    border-radius: 5px;
+}
+
+.info-link a:hover {
+    border-color: #333;
+    background: transparent;
+    text-decoration: none;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background: #000;
+    z-index: 111;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header nav a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 15px;
+    color: #FFF;
+    transition: .4s ease-in-out;
+    margin: 0px 10px;
+    position: relative;
+}
+
+header nav a:hover {
+    color: var(--main-color);
+    text-decoration: none;
+}
