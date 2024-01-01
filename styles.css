@@ -445,3 +445,110 @@ header nav a:hover {
     background: transparent;
 }
 
+.footer {
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 1) 1%, rgba(0, 0, 0, 0.5861695019804797) 47%),
+    linear-gradient(180deg, rgba(0, 0, 0, 0) 47%, rgba(0, 0, 0, 1) 100%), url(images/footer-baner.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding: 100px 0px;
+    margin: 100px 0;
+}
+
+.footer .footer-flex {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-flex .footer1 {
+    width: 32%;
+    color: #FFF;
+}
+
+.footer1 img {
+    margin-bottom: 20px;
+}
+
+.footer1 section {
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.footer1 .footer-links a {
+    text-decoration: none;
+    color: #FFF;
+    margin: 0 8px;
+    font-size: 14px;
+    display: inline-block;
+    transition: .4s ease-in-out;
+}
+
+.footer-links a:hover {
+    color: var(--main-color);
+}
+
+.footer1 h3 {
+    text-transform: capitalize;
+    border-bottom: 2px solid var(--main-color);
+    margin-bottom: 50px;
+    display: inline-block;
+}
+
+.footer1 .location {
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+location span {
+    margin-left: -30px;
+    display: inline-block;
+    margin-right: 13px;
+}
+
+.location a {
+    text-decoration: none;
+    color: #FFF;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.location section {
+    margin-bottom: 4px;
+}
+
+.footer1 form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 52px;
+    line-height: 52px;
+    background: #fff;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.footer1 form input {
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    font-size: 13px;
+    color: var(--main-color);
+    width: 75%;
+}
+
+.footer1 form a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 13px;
+    color: #FFF;
+    background: var(--main-color);
+    width: 25%;
+    text-align: center;
+}
