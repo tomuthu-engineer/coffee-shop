@@ -49,4 +49,3 @@ If you'd like to contribute to the project, please follow these steps:
 This project is licensed under the MIT License.
 
 
-Feel free to modify the README according to any additional information or features you'd like to highlight about your project.
