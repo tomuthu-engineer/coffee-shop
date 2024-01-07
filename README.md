@@ -32,3 +32,7 @@ This project is a static website built with HTML and CSS, presenting the offerin
 - Contact information for easy communication.
 - Product section showcasing various coffee products.
 
+## Usage
+
+Feel free to customize and modify the website to fit the specific details of your coffee shop. Update the menu, add images, and personalize the content.
+
