@@ -7,7 +7,6 @@ Welcome to the Madurai Coffee Shop Website repository! This project is a simple 
 - [Description](#description)
 - [Code Analysis](#code-analysis)
 - [Features](#features)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
