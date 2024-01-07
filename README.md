@@ -36,3 +36,10 @@ This project is a static website built with HTML and CSS, presenting the offerin
 
 Feel free to customize and modify the website to fit the specific details of your coffee shop. Update the menu, add images, and personalize the content.
 
+## Contributing
+If you'd like to contribute to the project, please follow these steps:
+
+Fork the repository.
+Create a new branch for your feature or bug fix.
+Make your changes and submit a pull request.
+
